@@ -1,0 +1,20 @@
+{
+  "name": "fastify_test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --build && node dist/index.js",
+    "lint": "eslint . --cache"
+  },
+  "dependencies": {
+    "fastify": "https://github.com/tzafrirben/fastify#fastify-base-logger-interface"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
+}
